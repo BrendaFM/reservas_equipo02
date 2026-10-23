@@ -1,3 +1,3 @@
-# Estado de integración
+﻿# Estado de integraciÃ³n
 
-Último módulo integrado: Pendiente.
+Ãšltimo mÃ³dulo integrado: Pendiente.
