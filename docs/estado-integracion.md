@@ -1,2 +1,2 @@
-﻿# Estado de integraciÃ³n
+﻿# Estado de integracion
 Último módulo integrado: Modelo de datos y reservas.
