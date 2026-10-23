@@ -1,31 +1,23 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sistema de Reservas - Equipo 02</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <header>
-    <h1>Sistema de Reservas</h1>
+<li>Inicio</li>
+por esto:
+<li>Inicio</li><li>Servicios</li>
 
-    <nav>
-      <ul id="menu-principal">
-        <li>Inicio</li>
-      </ul>
-    </nav>
-  </header>
+Crea js/servicios.js:
+const servicios = [
+  { id: 1, nombre: "Corte de cabello", precio: 25, duracion: 30 }
+];
 
-  <main id="contenido">
-    <h2>Versión demostrativa</h2>
-    <p>Proyecto del curso Herramientas de Desarrollo.</p>
-  </main>
+function registrarServicio(nombre, precio, duracion) {
+  servicios.push({
+    id: servicios.length + 1,
+    nombre: nombre,
+    precio: precio,
+    duracion: duracion
+  });
+}
 
-  <footer>
-    <p>Equipo 02 - 2026</p>
-  </footer>
+function listarServicios() {
+  return servicios;
+}
 
-  <script src="js/app.js"></script>
-</body>
-</html>
+console.log("Módulo de servicios cargado.");
