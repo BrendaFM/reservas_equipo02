@@ -1,3 +1,2 @@
 ﻿# Estado de integraciÃ³n
-
-Ãšltimo mÃ³dulo integrado: Pendiente.
+Último módulo integrado: Modelo de datos y reservas.
